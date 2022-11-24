@@ -30,7 +30,7 @@ nav a {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  color: blanchedalmond;
+  color: floralwhite;
   text-decoration: none;
   padding: 35px;
 }
@@ -61,11 +61,11 @@ main section img {
 }
 
 body {
-  background-color: #fffff5;
+  background-color: floralwhite;
 }
 
 header {
-  background-color: darkolivegreen;
+  background-color: darkseagreen;
   display: grid;
   height: 175px;
   grid-template-columns: 2fr 1fr 2fr;
@@ -73,7 +73,7 @@ header {
 
 .book,
 .join {
-  background-color: #ffa21f;
+  background-color: floralwhite;
   color: #023047;
   text-decoration: none;
   font-size: 18px;
@@ -84,7 +84,7 @@ header {
 
 .book:hover,
 .join:hover {
-  color: #fffff5;
+  color: floralwhite;
 }
 
 .msg {
@@ -97,12 +97,12 @@ header {
 }
 
 .msg h2 {
-  color: #fffff5;
+  color: floralwhite;
   font-family: "Bubblegum Sans", Helvetica, sans-serif;
 }
 
 .msg p {
-  color: #fffff5;
+  color: floralwhite;
   font-size: 0.8em;
   padding-bottom: 15px;
 }
@@ -116,11 +116,11 @@ footer {
 }
 
 footer h3 {
-  color: #fffff5;
+  color: floralwhite;
 }
 
 footer a {
-  color: #fffff5;
+  color: floralwhite;
   text-decoration: none;
 }
 
@@ -149,9 +149,9 @@ h4 {
   justify-self: center;
   align-self: center;
   text-decoration: none;
-  color: blanchedalmond;
+  color: floralwhite;
   text-align: center;
-  font-family: "Viaoda Libre", serif;
+  font-family: serif;
   font-size: xx-large;
 }
 
@@ -186,7 +186,7 @@ h4 {
 #hero-msg h1,
 #hero-msg h4 {
   text-align: center;
-  color: #fffff5;
+  color: floralwhite;
 }
 
 h2 {
@@ -266,7 +266,7 @@ h2 {
   }
   .home-title {
     font-size: 25px;
-    color: #fffff5;
+    color: floralwhite;
   }
   .rivers-card,
   .camping-card,
@@ -327,7 +327,7 @@ FAQ Page CSS below
 #faq-hero-msg h1,
 #faq-hero-msg h4 {
   text-align: center;
-  color: #fffff5;
+  color: floralwhite;
 }
 
 .faq-grid {
@@ -349,7 +349,7 @@ FAQ Page CSS below
   grid-template-columns: 1fr 8fr 1fr 5fr;
   grid-template-rows: 100px 100px 100px;
   max-height: 300px;
-  background-color: #fffff5;
+  background-color: floralwhite;
 }
 
 .Qhead,
@@ -357,7 +357,7 @@ FAQ Page CSS below
   padding: 20px;
   grid-column: 1/2;
   background-color: #ffa21f;
-  color: #fffff5;
+  color: floralwhite;
   /* border: solid 1px #ffa21f; */
   font-family: "Bubblegum Sans", Helvetica, sans-serif;
 }
@@ -490,5 +490,5 @@ button {
   font-family: "Dancing Script";
   font-size: 40px;
   text-decoration: none;
-  color: #ffffff;
+  color: floralwhite;
 }
