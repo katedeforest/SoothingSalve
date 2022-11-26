@@ -13,19 +13,20 @@ body {
   font-family: "Lora", serif;
   background-color: floralwhite;
   /* min-width: 800px; */
-  max-width: 800px;
+  /* max-width: 800px; */
   margin: 0 auto;
 }
 
 .top {
   display: grid;
-  width: 800;
+  width: 800px;
   grid-template-columns: 40px 570px 150px 40px;
   grid-template-rows: 200px 50px 50px;
   position: relative;
+  margin: 0 auto;
   margin-bottom: 40px;
 
-  border: 0.5px solid black;
+  border-bottom: 0.5px solid black;
 }
 
 .title {
@@ -56,16 +57,19 @@ body {
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   display: flex;
+  justify-content: center;
 }
 
-#logo {
+.logo {
   /* background-color: white; */
   font-family: "Wire One", serif;
   font-size: 40px;
-  text-align: center;
-  text-transform: uppercase;
   align-self: center;
   /* transform: rotate(90deg); */
+}
+
+.symbol {
+  display: none;
 }
 
 .wrapper {
@@ -124,4 +128,82 @@ h2 span {
 
 .ing p {
   padding: 20px 0px;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    /* background-color: pink; */
+  }
+
+  .top {
+    display: grid;
+    width: auto;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    /* justify-items: center; */
+  }
+
+  .title {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 20px;
+    align-self: flex-end;
+  }
+
+  .title h1 {
+    font-size: 100px;
+    text-align: center;
+  }
+
+  .title h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .logo {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .symbol {
+    display: flex;
+    background-color: darkseagreen;
+    margin: 0px 10px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .smgrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+  }
+
+  .wrapper {
+    float: none;
+    border: 2px solid darkseagreen;
+    border-radius: 8px;
+    margin: 0px 10px;
+    margin-bottom: 40px;
+  }
+
+  .wrapper h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .list {
+    align-self: center;
+    font-size: large;
+    padding: 20px 40px;
+  }
 }
