@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Wire+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri&family=Handlee&family=Klee+One&family=Nixie+One&family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Meddon&family=Open+Sans:ital,wght@0,400&family=Quattrocento&family=Raleway:wght@100;400&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -8,68 +12,116 @@
 body {
   font-family: "Lora", serif;
   background-color: floralwhite;
-  /* max-width: 800px; */
-  /* margin: 0 auto; */
+  /* min-width: 800px; */
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .top {
   display: grid;
-  grid-template-columns: 6fr 2fr 1fr;
-  grid-template-rows: 200px 200px;
+  width: 800;
+  grid-template-columns: 40px 570px 150px 40px;
+  grid-template-rows: 200px 50px 50px;
   position: relative;
+  margin-bottom: 40px;
+
+  border: 0.5px solid black;
 }
 
 .title {
-  grid-column: 1;
-  grid-row: 1;
-  padding: 70px;
-  align-self: center;
-  text-align: center;
-  font-size: 40px;
+  grid-column: 2/3;
+  grid-row: 2/4;
+  padding: 20px;
+  align-self: flex-end;
+}
+
+.title h1 {
+  font-size: 140px;
+  font-family: "Wire One", Serif;
+}
+
+.title h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-left: 90px;
 }
 
 .banner {
-  grid-column: 2;
+  grid-column: 3/4;
   grid-row: 1/3;
   background-color: darkseagreen;
-  padding: 50px;
+  padding: 20px;
+  overflow: hidden;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: flex;
 }
 
-/* .ingredients {
-  grid-column: 1;
-  grid-row: 2;
+#logo {
+  /* background-color: white; */
+  font-family: "Wire One", serif;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
   align-self: center;
-  margin: 0 100px;
-  padding: 20px 100px;
-  border: 5px solid black;
-} */
-
-/* .ingredients p {
-  font-size: 30px;
-  writing-mode: vertical-lr;
-  text-orientation: sideways-right;
-} */
+  /* transform: rotate(90deg); */
+}
 
 .wrapper {
-  grid-column: 1;
-  grid-row: 2;
+  float: right;
   border: 2px solid darkseagreen;
-  border-left: 40px solid darkseagreen;
-  padding: 20px;
-  margin: 0px 100px;
+  border-radius: 8px;
+  /* border-left: 40px solid darkseagreen; */
+  /* padding: 0px 30px; */
+  margin: 0px 40px;
+  margin-bottom: 40px;
 }
 
 .wrapper h3 {
-  /* font-size: 1rem; */
+  background-color: darkseagreen;
   color: black;
+  height: 30px;
   text-transform: uppercase;
   letter-spacing: 3px;
-
+  font-size: 20px;
+  text-align: center;
+  /* transform: rotate(-90deg); */
+  /* 
   position: absolute;
   bottom: 1;
   left: 0;
-  margin-left: 107px;
+  margin-left: 487px;
 
   writing-mode: vertical-lr;
-  text-orientation: sideways-right;
+  text-orientation: sideways-right; */
+}
+
+.list {
+  align-self: center;
+  font-size: larger;
+  padding: 20px 40px;
+}
+
+li a {
+  color: black;
+}
+
+li a:hover {
+  color: darkseagreen;
+}
+
+.ing {
+  padding: 0px 40px;
+  padding-bottom: 20px;
+}
+
+h2 span {
+  background-color: darkseagreen;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.ing p {
+  padding: 20px 0px;
 }
