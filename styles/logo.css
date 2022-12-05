@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Wire+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Klee+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nixie+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Meddon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Nova+Slim&family=Zen+Loop&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: darkseagreen;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 160 160 160;
+  grid-gap: 20px;
+}
+
+.logo {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 90px auto;
+  grid-template-rows: 140px;
+  border: 1px solid black;
+}
+
+/* LORA */
+.font1 h1 {
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  align-self: center;
+  font-size: 75px;
+}
+
+/* WIRE ONE */
+.font2 h1 {
+  font-family: "Wire One", serif;
+  text-transform: uppercase;
+  align-self: center;
+  font-size: 95px;
+}
+
+/* EL MESSIRI */
+.font3 h1 {
+  font-family: "El Messiri", serif;
+  text-transform: uppercase;
+  align-self: center;
+  font-size: 75px;
+}
+
+/* HANDLEE */
+.font4 h1 {
+  font-family: "Zen Loop", serif;
+  text-transform: uppercase;
+  align-self: center;
+  font-size: 85px;
+}
+
+/* HANDLEE LOWERCASE */
+.font5 h1 {
+  font-family: "Nova Slim", serif;
+  text-transform: uppercase;
+  align-self: center;
+  font-size: 70px;
+}
+
+/* KLEE ONE */
+.font6 h1 {
+  font-family: "Klee One", serif;
+  text-transform: uppercase;
+  align-self: center;
+  font-size: 75px;
+}
+
+/* NIXIE ONE */
+.font7 h1 {
+  font-family: "Nixie One", serif;
+  text-transform: uppercase;
+  align-self: center;
+  font-size: 70px;
+}
+
+/* POIRET */
+.font8 h1 {
+  font-family: "Poiret", serif;
+  text-transform: uppercase;
+  align-self: center;
+  font-size: 70px;
+}
+
+/* MEDDON */
+.font9 h1 {
+  font-family: "Hubballi", serif;
+  text-transform: uppercase;
+  align-self: center;
+  font-size: 85px;
+}
+
+/* RALEWAY */
+.font10 h1 {
+  font-family: "Raleway", serif;
+  text-transform: uppercase;
+  align-self: center;
+  font-size: 70px;
+}
+
+/* .font1:hover {
+} */
