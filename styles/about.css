@@ -30,7 +30,7 @@ body {
 
 .title {
   grid-column: 2/3;
-  grid-row: 2/4;
+  /* grid-row: 2/4; */
   padding: 20px;
   align-self: flex-end;
   text-align: center;
@@ -162,7 +162,7 @@ footer {
 
   .title {
     grid-column: 1/2;
-    grid-row: 2/3;
+    /* grid-row: 2/3; */
   }
 
   .title h1 {
