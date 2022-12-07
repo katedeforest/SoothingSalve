@@ -60,6 +60,11 @@ body {
   justify-content: center;
 }
 
+.banner a {
+  text-decoration: none;
+  color: black;
+}
+
 .logo {
   /* background-color: white; */
   font-family: "Wire One", serif;
@@ -115,7 +120,7 @@ li a:hover {
 
 .ing {
   padding: 0px 40px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 h2 span {
@@ -125,7 +130,8 @@ h2 span {
 }
 
 .ing p {
-  padding: 20px 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 footer {
