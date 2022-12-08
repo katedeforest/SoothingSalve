@@ -11,6 +11,7 @@
 
 body {
   font-family: "Lora", serif;
+  /* font-size: 20px; */
   background-color: papayawhip;
   /* min-width: 800px; */
   /* max-width: 800px; */
@@ -111,7 +112,7 @@ li a:hover {
   background-color: #86b569;
   margin: 40px;
   padding: 20px;
-  font-size: 20px;
+  /* font-size: 20px; */
   border: 0.5px solid #86b569;
   border-radius: 8px;
 }
@@ -147,13 +148,24 @@ footer {
   width: 700px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px;
+  grid-template-rows: 40px 40px;
   align-items: center;
   justify-items: center;
 }
 
 .contactwide a {
   color: black;
+}
+
+.contactwide p {
+  display: flex;
+  align-self: flex-end;
+}
+
+.contactwide h3 {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.2);
+  margin-top: -15px;
 }
 
 .contactthin {
@@ -245,78 +257,9 @@ footer {
   .contactthin a {
     color: black;
   }
+
+  .contactthin h3 {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.2);
+  }
 }
-
-/* @media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 3) {
-  .top {
-    display: grid;
-    width: auto;
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    justify-items: center;
-  }
-
-  .title {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    padding: 20px;
-    align-self: flex-end;
-  }
-
-  .title h1 {
-    font-size: 100px;
-    text-align: center;
-  }
-
-  .title h2 {
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    padding-left: 0px;
-    text-align: center;
-  }
-
-  .banner {
-    display: none;
-  }
-
-  .logo {
-    font-size: 40px;
-    text-align: center;
-  }
-
-  .symbol {
-    display: flex;
-    background-color: darkseagreen;
-    margin: 0px 10px;
-    margin-bottom: 40px;
-    border-radius: 8px;
-    align-content: center;
-    justify-content: center;
-  }
-
-  .smgrid {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto;
-  }
-
-  .wrapper {
-    float: none;
-    border: 2px solid darkseagreen;
-    border-radius: 8px;
-    margin: 0px 10px;
-    margin-bottom: 40px;
-  }
-
-  .wrapper h3 {
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .list {
-    align-self: center;
-    font-size: large;
-    padding: 20px 40px;
-  }
-} */
