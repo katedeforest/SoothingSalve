@@ -25,7 +25,7 @@ body {
   margin: 0 auto;
   margin-bottom: 40px;
 
-  border-bottom: 0.5px solid black;
+  border-bottom: 0.5px solid #86b569;
 }
 
 .title {
@@ -107,6 +107,15 @@ li a:hover {
   color: darkseagreen;
 }
 
+.intro {
+  background-color: #86b569;
+  margin: 40px;
+  padding: 20px;
+  font-size: 20px;
+  border: 0.5px solid #86b569;
+  border-radius: 8px;
+}
+
 .ing {
   padding: 0px 40px;
   padding-bottom: 40px;
@@ -151,7 +160,7 @@ footer {
   display: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .top {
     display: grid;
     width: 100%;
